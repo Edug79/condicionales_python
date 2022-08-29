@@ -79,6 +79,8 @@ if Respuesta == 1:
         print("{} y {} son iguales y despues sigue {} alfabeticamente ".format(texto_3 , texto_2 , texto_1))  
     elif texto_1 < texto_2 and texto_3 < texto_2 and texto_1 == texto_3:
         print("{} y {} son iguales y despues sigue {} alfabeticamente ".format(texto_1 , texto_3 , texto_2))  
+    elif texto_1 < texto_3 and texto_2 < texto_3 and texto_1 == texto_2:
+        print("{} y {} son iguales y despues sigue {} alfabeticamente ".format(texto_1 , texto_2 , texto_3))  
 
     elif texto_1 == texto_2 == texto_3:
         print("Las tres palabras son iguales y tienen el mismo orden alfabetico")
@@ -105,9 +107,11 @@ elif Respuesta == 2:
     elif l_3 > l_2 and l_3 > l_1 and l_2 == l_1:
         print("La palabra con mas letras es: {} y la 1ra y 2da palabra tienen la misma cantidad de letras".format(texto_3))
     elif l_3 > l_1 and l_2 > l_1 and l_2 == l_3:
-        print("{} y {}, son las dos palabras con mayor con mas cantidad de letras y despues sigue: {} con menor cantidad de letras ".format(texto_3 , texto_2 , texto_1))  
+        print("{} y {}, son las dos palabras con mayor cantidad de letras y despues sigue: {} con menor cantidad de letras ".format(texto_3 , texto_2 , texto_1))  
     elif l_1 > l_2 and l_3 > l_2 and l_1 == l_3:
-        print("{} y {} son las dos palabras con mayor con mas cantidad de letras y despues sigue {} con menor cantidad de letras ".format(texto_1 , texto_3 , texto_2))
+        print("{} y {} son las dos palabras con mayor cantidad de letras y despues sigue {} con menor cantidad de letras ".format(texto_1 , texto_3 , texto_2))
+    elif l_1 > l_3 and l_2 > l_3 and l_1 == l_2:
+        print("{} y {} son las dos palabras con mayor cantidad de letras y despues sigue {} con menor cantidad de letras ".format(texto_1 , texto_2 , texto_3))
 
     elif l_1 == l_2 == l_3:
         print("las tres palabras tienen la misma cantidad de letras!")      
