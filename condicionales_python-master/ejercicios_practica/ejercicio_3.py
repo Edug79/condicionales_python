@@ -25,7 +25,7 @@ numero_2 = -2
 
 # Verifique la calificación de un estudiante según su
 # puntaje en un examen
-puntaje = 69.50
+puntaje = float(input("ingrese la nota deseada por favor: "))
 
 # Si el puntaje es mayor igual a 90 --> imprimir A
 # Si el puntaje es mayor igual a 80 --> imprimir B
@@ -39,12 +39,12 @@ puntaje = 69.50
 if numero_1 > 5 and numero_2 > 0:
    print("Resp=1")
 else:
-   print("Resp_2")
+   print("Resp=2")
 
 if numero_1 > 5 and numero_2 < 5:
    print("Resp=3")
 else:
-   print("Resp_4")
+   print("Resp=4")
 
 
 print("Resultado del examen:")
