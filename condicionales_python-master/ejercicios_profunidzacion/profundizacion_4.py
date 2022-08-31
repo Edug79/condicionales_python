@@ -115,8 +115,10 @@ elif Respuesta == 2:
 
     elif l_1 == l_2 == l_3:
         print("las tres palabras tienen la misma cantidad de letras!")      
-        
-print( "Deberia haber una mejor forma de hacer esto escribinedo un poco menos de codigo")   
+else:
+    print("Su opcion no es valida por favor ingrese 1 o 2")    
+
+print( "Deberia haber una mejor forma mas elegante de hacer esto, escribiendo un poco menos de codigo")   
 
 
     
