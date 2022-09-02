@@ -39,11 +39,17 @@ print("Veamos algunas comparaciones:")
 
 if texto_1 > texto_2:
     print('{} es mayor que {}'.format(texto_1, texto_2))
+elif texto_1 == texto_2:
+    print('{} es igual a {}'.format(texto_1, texto_2))   
 else:
     print('{} es mayor que {}'.format(texto_2, texto_1))
 
 if len(texto_1) > len(texto_2):
     print('{} contiene mas caracteres que {}'.format(texto_1, texto_2))
+
+elif len(texto_1) == len(texto_2):
+    print('{} es igual a {}'.format(texto_1, texto_2))
+
 else:     
     print('{} contiene mas caracteres que {}'.format(texto_2, texto_1))
 
@@ -52,11 +58,13 @@ primer_caracter2 = texto_2[0]
 
 if primer_caracter1 > primer_caracter2:
     print("{} , El primer caracter de la primera palabra,  es mayor que: {} , el de la segunda ".format(primer_caracter1, primer_caracter2))
+elif primer_caracter1 == primer_caracter2:
+    print("{} , El primer caracter de la primera palabra,  es igual: {} , el de la segunda ".format(primer_caracter1, primer_caracter2))
 else:     
     print('{} , El primer caracter de la segunda palabra  es mayor que: {} , el de la primera '.format(primer_caracter2, primer_caracter1))
 
 if copia_texto_1 == texto_1:
-    print(copia_texto_1 , "es iagual a:" , texto_1)
+    print(copia_texto_1 , "es igual a:" , texto_1)
 
 if copia_texto_1 != texto_1:
     print(copia_texto_1 , "es distinto a:" , texto_1)

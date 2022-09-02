@@ -24,25 +24,43 @@ Para cada caso imprimir el resultado en pantalla.
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
 
-numero_1 = int(input('Ingrese el primer número:\n'))
+print("Bienvenido a al sistema de identificacion de numros pares o impares!!!")
 
-numero_2 = int(input('Ingrese el segundo número:\n'))
+vover_a_ejecutar = str(input("Si desea salir escriba [salir]: "))
 
-numero_3 = int(input('Ingrese el tercer número:\n'))
+while True:
 
-if (numero_1 % 2) == 0:
-    print(numero_1, "Es: PAR" )
-else:
-    print(numero_1, "Es: IMPAR")    
+    if vover_a_ejecutar == "salir":
+        break
+    
+
+        numero_1 = int(input('Ingrese el primer número:\n'))
+
+        numero_2 = int(input('Ingrese el segundo número:\n'))
+
+        numero_3 = int(input('Ingrese el tercer número:\n'))
+
+        if (numero_1 % 2) == 0:
+            print(numero_1, "Es: PAR" )
+        else:
+            print(numero_1, "Es: IMPAR")    
 
 
-if (numero_2 % 2) == 0:
-    print(numero_2, "Es: PAR" )
-else:
-    print(numero_2, "Es: IMPAR") 
+        if (numero_2 % 2) == 0:
+            print(numero_2, "Es: PAR" )
+        else:
+            print(numero_2, "Es: IMPAR") 
 
 
-if (numero_3 % 2) == 0:
-    print(numero_3, "Es: PAR" )
-else:
-    print(numero_3, "Es: IMPAR") 
+        if (numero_3 % 2) == 0:
+            print(numero_3, "Es: PAR" )
+        else:
+            print(numero_3, "Es: IMPAR") 
+
+    else: 
+        print("muchas gracias por utilizar el sistema") 
+
+    vover_a_ejecutar = str(input("Si desea salir escriba [salir]: "))
+
+   
+ 

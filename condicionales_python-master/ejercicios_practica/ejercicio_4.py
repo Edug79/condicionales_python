@@ -40,11 +40,10 @@ else:
     print('{} es mayor que {}'.format(texto_2, texto_1))
 
 
-texto_1 = int(5)
-texto_2 = int(7)
 
 
-if (texto_1) > (texto_2):
+
+if int(texto_1) > int(texto_2):
     print('{} es mayor que {}' .format(texto_1, texto_2))
 else:
     print('{} es mayor que {}' .format(texto_2, texto_1))
